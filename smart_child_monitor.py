@@ -52,7 +52,7 @@ CONFIG = {
     "VIDEO_SOURCE": 0,                       # 可改为 "rtsp://admin:pwd@192.168.1.64:554/h264"
     "USE_ONVIF_CAMERA": True,                # 优先自动发现 ONVIF 监控摄像头并获取 RTSP
     "ONVIF_USERNAME": os.getenv("ONVIF_USERNAME", "admin"),
-    "ONVIF_PASSWORD": os.getenv("ONVIF_PASSWORD", "asd951753"),
+    "ONVIF_PASSWORD": os.getenv("ONVIF_PASSWORD", "XXXXXX"),
     "ONVIF_PREFERRED_HOST": os.getenv("ONVIF_PREFERRED_HOST", ""), # 多摄像头时指定 IP
     "ONVIF_DISCOVERY_TIMEOUT": 3.0,
     "ONVIF_STREAM_PROTOCOL": "RTSP",
