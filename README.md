@@ -76,7 +76,7 @@ Set the camera login before running:
 
 ```bash
 export ONVIF_USERNAME=admin
-export ONVIF_PASSWORD='asd951753'
+export ONVIF_PASSWORD='XXXXX'
 python smart_child_monitor.py
 ```
 
